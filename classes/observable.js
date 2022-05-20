@@ -10,7 +10,6 @@ export default class Observable {
   quickInspect = () => {
     console.log(`-----------------`);
     console.log(`${this.name}`);
-    console.log(`${this.description}`);
   };
 
   fullInspect = () => {
